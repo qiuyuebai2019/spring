@@ -1,4 +1,5 @@
 import com.jld.dao.UserDao;
+import com.jld.impl.Mysqlimpl;
 import com.jld.impl.Oracleimpl;
 import java.util.Arrays;
 import org.junit.Test;
@@ -34,5 +35,16 @@ public class SpringTest {
         //关闭工厂
         ((ClassPathXmlApplicationContext)applicationContext).close();
 
+    }
+
+    @Test
+    public void test2(){
+        ApplicationContext applicationContext =
+            new ClassPathXmlApplicationContext("applicationContext.xml");
+        Mysqlimpl userDao = (Mysqlimpl)applicationContext.getBean("Mysqlimpl");
+        userDao.save();
+        System.out.println(userDao.name);
+        System.out.println(userDao.getDog().getName());
+        ((ClassPathXmlApplicationContext)applicationContext).close();
     }
 }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Dog" class="com.jld.dao.Dog" p:name="wc">
+    </bean>
+
+    <bean id="UserDao" class="com.jld.impl.Oracleimpl" init-method="save" destroy-method="delete" scope="prototype">
+        <!--name需要注入属性的名字，提供set方法 value赋予的值-->
+        <property name="name" value="s"></property>
+        <property name="dog" ref="Dog"></property>
+        <property name="dogname" value="#{Dog.name}"></property>
+        <property name="num">
+            <list>
+                <value>123</value>
+                <value>321</value>
+                <value>213</value>
+            </list>
+        </property>
+        <property name="list">
+            <list>
+                <value>a</value>
+                <value>b</value>
+                <value>c</value>
+                <value>d</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>e</value>
+                <value>f</value>
+                <value>g</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="A" value="a"></entry>
+                <entry key="B" value="b"></entry>
+                <entry key="C" value="c"></entry>
+            </map>
+        </property>
+    </bean>
+</beans>
