@@ -1,6 +1,8 @@
+import com.jld.dao.SpringAop;
 import com.jld.dao.UserDao;
 import com.jld.impl.Mysqlimpl;
 import com.jld.impl.Oracleimpl;
+import com.jld.impl.Taop;
 import java.util.Arrays;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -46,5 +48,14 @@ public class SpringTest {
         System.out.println(userDao.name);
         System.out.println(userDao.getDog().getName());
         ((ClassPathXmlApplicationContext)applicationContext).close();
+    }
+
+    @Test
+    public void test3(){
+        ApplicationContext applicationContext =
+            new ClassPathXmlApplicationContext("applicationContext4.xml");
+
+        Taop aop = (Taop)applicationContext.getBean("taop");
+        aop.name();
     }
 }

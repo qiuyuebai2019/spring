@@ -39,12 +39,12 @@ public class Mysqlimpl implements UserDao {
         this.name = name;
     }
 
-    @PostConstruct//初始化方法
+    //@PostConstruct//初始化方法
     public void save() {
         System.out.println("mysql--save");
     }
 
-    @PreDestroy//销毁方法
+    //@PreDestroy//销毁方法
     public void delete() {
         System.out.println("mysql--delete");
     }
