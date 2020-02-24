@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="UserDao" class="com.jld.impl.Oracleimpl" init-method="save" destroy-method="delete" scope="prototype">
+        <!--name需要注入属性的名字，提供set方法 value赋予的值-->
+        <property name="name" value="s"></property>
+    </bean>
+</beans>
