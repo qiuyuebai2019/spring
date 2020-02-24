@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1f42e4b-fcd0-4485-91d7-c24d0a63e336" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jld/impl/Mysqlimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jld/impl/Mysqlimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jld/impl/Mysqlimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jld/impl/Mysqlimpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SpringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SpringTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,53 +16,53 @@
     <session id="-1324069286">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="14" />
-          <entry key="xml" value="15" />
+          <entry key="java" value="17" />
+          <entry key="xml" value="16" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="14" />
-          <entry key="XML" value="15" />
+          <entry key="JAVA" value="17" />
+          <entry key="XML" value="16" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="1149" />
-          <entry key="xml" value="746" />
+          <entry key="java" value="1327" />
+          <entry key="xml" value="774" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1149" />
+          <entry key="JAVA" value="1327" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="XML" value="746" />
+          <entry key="XML" value="774" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="313">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -75,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="55" column="67" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
+            <state relative-caret-position="155">
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#test#0;class#SpringTest#0" />
@@ -87,10 +82,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext4.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Stext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="301">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jld/dao/a.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jld/dao/b.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext5.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -98,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jld/dao/SpringAop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="122">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#260#261#0" expanded="true" />
@@ -138,9 +167,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jld/impl/Taop.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jld/impl/Mysqlimpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/SpringTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext4.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext5.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Stext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jld/dao/b.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jld/dao/a.java" />
       </list>
     </option>
   </component>
@@ -161,9 +194,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="322" />
-    <option name="y" value="178" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="233" />
+    <option name="y" value="82" />
     <option name="width" value="1700" />
     <option name="height" value="1010" />
   </component>
@@ -175,7 +208,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,14 +290,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582534907794" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582536240435" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -287,20 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringTest.test3">
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jld.test" />
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Stext.ab">
     <configuration name="SpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring" />
       <option name="PACKAGE_NAME" value="" />
@@ -339,20 +359,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Stext.ab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Stext" />
+      <option name="METHOD_NAME" value="ab" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.test" />
       <item itemvalue="JUnit.SpringTest.test" />
       <item itemvalue="JUnit.SpringTest" />
       <item itemvalue="JUnit.SpringTest.test2" />
       <item itemvalue="JUnit.SpringTest.test3" />
+      <item itemvalue="JUnit.Stext.ab" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Stext.ab" />
         <item itemvalue="JUnit.SpringTest.test3" />
         <item itemvalue="JUnit.SpringTest.test2" />
         <item itemvalue="JUnit.SpringTest.test" />
         <item itemvalue="JUnit.SpringTest" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -370,17 +400,12 @@
       <workItem from="1582516812433" duration="8092000" />
       <workItem from="1582529378264" duration="603000" />
       <workItem from="1582530039249" duration="506000" />
-      <workItem from="1582530568838" duration="4248000" />
+      <workItem from="1582530568838" duration="4568000" />
+      <workItem from="1582535472116" duration="545000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringTest_test3 - 2020.02.24 at 16h 45m 04s.xml">
-      <configuration name="SpringTest.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTest_test3 - 2020.02.24 at 16h 45m 29s.xml">
-      <configuration name="SpringTest.test3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpringTest_test3 - 2020.02.24 at 16h 45m 55s.xml">
       <configuration name="SpringTest.test3" configurationId="JUnit" />
     </history-entry>
@@ -405,15 +430,21 @@
     <history-entry file="SpringTest_test3 - 2020.02.24 at 16h 53m 05s.xml">
       <configuration name="SpringTest.test3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpringTest_test3 - 2020.02.24 at 17h 01m 52s.xml">
+      <configuration name="SpringTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringTest_test3 - 2020.02.24 at 17h 11m 26s.xml">
+      <configuration name="SpringTest.test3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15387000" />
+    <option name="totallyTimeSpent" value="16252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="187" y="66" width="1360" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1802949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20890938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -422,7 +453,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22788204" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29881656" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3632708" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,40 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,10 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,10 +587,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext4.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext5.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jld/dao/SpringAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="55" column="67" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
+        <state relative-caret-position="155">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#test#0;class#SpringTest#0" />
@@ -606,28 +631,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jld/dao/SpringAop.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Stext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="301">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext4.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jld/dao/b.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="301">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jld/dao/a.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="157">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

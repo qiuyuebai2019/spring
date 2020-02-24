@@ -19,6 +19,16 @@
             <version>${org.springframework.version}</version>
             <!--<scope>runtime</scope>  意义不明 -->
         </dependency>
+
+        <!--@RunWith(SpringJUnit4ClassRunner.class)
+            @ContextConfiguration("classpath:applicationContext5.xml")
+            -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${org.springframework.version}</version>
+        </dependency>
+        <!--aop-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>

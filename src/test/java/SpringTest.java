@@ -5,8 +5,11 @@ import com.jld.impl.Oracleimpl;
 import com.jld.impl.Taop;
 import java.util.Arrays;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
  * .
@@ -14,7 +17,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @author jiangxin (jiangxin@zhengheyingshi.com)
  * @since 2020年02月24日 12时45分
  */
+
 public class SpringTest {
+
+    private Taop taop;
 
     @Test
     public void test(){
