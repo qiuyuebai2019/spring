@@ -1,5 +1,6 @@
 import com.jld.dao.UserDao;
 import com.jld.impl.Oracleimpl;
+import java.util.Arrays;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -24,6 +25,12 @@ public class SpringTest {
 //        userDao.delete();
 //        userDao.save();
         System.out.println(userDao.getName());
+        System.out.println(userDao.getDog().getName());
+        System.out.println(userDao.getDogname());
+        System.out.println(Arrays.toString(userDao.getNum()));
+        System.out.println(userDao.getList());
+        System.out.println(userDao.getMap());
+        System.out.println(userDao.getSet());
         //关闭工厂
         ((ClassPathXmlApplicationContext)applicationContext).close();
 
